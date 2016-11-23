@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <project name="heicrd/android_device_sony_kugo"                          path="device/sony/kugo"                     remote="github" revision="cm-13.0" />
+
+</manifest>

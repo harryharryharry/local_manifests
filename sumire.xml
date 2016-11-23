@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
- <project name="Sony-Kitakami/android_device_sony_sumire"                path="device/sony/sumire"                  remote="github" revision="cm-13.0" />
-
-</manifest>
