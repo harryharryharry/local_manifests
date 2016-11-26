@@ -22,12 +22,13 @@
 
  <!-- Qualcomm -->
  <project name="heicrd/android_hardware_qcom_display"                     path="hardware/qcom/display"                remote="github" revision="cm-13.0" />
- <project name="heicrd/android_hardware_qcom_audio"                       path="hardware/qcom/audio"                  remote="github" revision="cm-13.0" />
+ <project name="heicrd/android_hardware_qcom_audio"                       path="hardware/qcom/audio"                  remote="github" revision="android-6.0.1" />
  <project name="heicrd/android_hardware_qcom_media"                       path="hardware/qcom/media"                  remote="github" revision="cm-13.0" />
 
  <!-- Sony Xperia Dev -->
  <project name="sonyxperiadev/vendor-qcom-opensource-dataservices"        path="vendor/qcom/opensource/dataservices"  remote="github" revision="master" />
  <project name="sonyxperiadev/device-sony-common-headers"                 path="device/sony/common-headers"           remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
+ <project name="sonyxperiadev/vendor-sony-kernel"                         path="vendor/sony/kernel"                   remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
 
  <!-- Super Benevolent -->
  <project name="SuperBenevolent/aosp-vendor-qcom-prebuilt"                path="vendor/qcom/prebuilt"                 remote="github" revision="m-mr1" />
