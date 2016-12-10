@@ -21,7 +21,7 @@
 
  <!-- Qualcomm -->
  <project name="heicrd/android_hardware_qcom_display"                     path="hardware/qcom/display"                remote="github" revision="cm-13.0" />
- <project name="heicrd/android_hardware_qcom_audio"                       path="hardware/qcom/audio"                  remote="github" revision="android-6.0.1" />
+ <project name="heicrd/android_hardware_qcom_audio"                       path="hardware/qcom/audio"                  remote="github" revision="cm-13.0" />
  <project name="heicrd/android_hardware_qcom_media"                       path="hardware/qcom/media"                  remote="github" revision="cm-13.0" />
 
  <!-- Sony Xperia Dev -->
