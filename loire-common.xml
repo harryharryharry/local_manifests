@@ -7,6 +7,7 @@
  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+ <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />
  
  <!-- _________________________________________________________________________ -->
 
@@ -28,9 +29,11 @@
  <project name="sonyxperiadev/vendor-qcom-opensource-dataservices"        path="vendor/qcom/opensource/dataservices"  remote="github" revision="master" />
  <project name="sonyxperiadev/device-sony-common-headers"                 path="device/sony/common-headers"           remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
 
- <!-- Super Benevolent -->
- <project name="SuperBenevolent/aosp-vendor-qcom-prebuilt"                path="vendor/qcom/prebuilt"                 remote="github" revision="m-mr1" />
- <project name="SuperBenevolent/aosp-vendor-sony"                         path="vendor/sony"                          remote="github" revision="m-mr1" />
+ <!-- Infected Mushi -->
+ <project name="infectedmushi/aosp-vendor-qcom-prebuilt"                  path="vendor/qcom/prebuilt"                 remote="github" revision="m-mr1" />
+ <project name="infectedmushi/aosp-vendor-qcom-extras"                    path="vendor/qcom/extras"                   remote="github" revision="m-mr1" />
+ <project name="infectedmushi/aosp-vendor-sony"                           path="vendor/sony"                          remote="github" revision="m-mr1" />
+ <project name="infectedmushi/aosp-vendor-nxp"                            path="vendor/nxp"                           remote="github" revision="m-mr1" />
 
  <!-- Cyanogen Mod -->
  <project name="CyanogenMod/android_hardware_sony_thermanager"            path="hardware/sony/thermanager"            remote="github" revision="cm-13.0" />
