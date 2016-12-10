@@ -17,7 +17,6 @@
  <project name="heicrd/android_kernel_sony"                               path="kernel/sony"                          remote="github" revision="cm-13.0" />
  <project name="heicrd/android_hardware_sony_camera"                      path="hardware/sony/camera"                 remote="github" revision="cm-13.0" />
  <project name="heicrd/android_device_sony_common"                        path="device/sony/common"                   remote="github" revision="cm-13.0" />
- <project name="Sony-Kitakami/android_packages_apps_FMRadio"              path="packages/apps/FMRadio"                remote="github" revision="cm-13.0" />
  <project name="heicrd/android_device_sony_common-init"                   path="device/sony/common-init"              remote="github" revision="cm-13.0" />
 
  <!-- Qualcomm -->
