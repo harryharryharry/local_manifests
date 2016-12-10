@@ -28,13 +28,12 @@
  <!-- Sony Xperia Dev -->
  <project name="sonyxperiadev/vendor-qcom-opensource-dataservices"        path="vendor/qcom/opensource/dataservices"  remote="github" revision="master" />
  <project name="sonyxperiadev/device-sony-common-headers"                 path="device/sony/common-headers"           remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
- <project name="sonyxperiadev/vendor-sony-kernel"                         path="vendor/sony/kernel"                   remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
 
  <!-- Super Benevolent -->
  <project name="SuperBenevolent/aosp-vendor-qcom-prebuilt"                path="vendor/qcom/prebuilt"                 remote="github" revision="m-mr1" />
  <project name="SuperBenevolent/aosp-vendor-sony"                         path="vendor/sony"                          remote="github" revision="m-mr1" />
 
-<!-- Cyanogen Mod -->
+ <!-- Cyanogen Mod -->
  <project name="CyanogenMod/android_hardware_sony_thermanager"            path="hardware/sony/thermanager"            remote="github" revision="cm-13.0" />
  <project name="CyanogenMod/android_hardware_sony_timekeep"               path="hardware/sony/timekeep"               remote="github" revision="cm-13.0" />
  <project name="CyanogenMod/android_device_qcom_common"                   path="device/qcom/common"                   remote="github" revision="cm-13.0" />
