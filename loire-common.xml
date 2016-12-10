@@ -4,25 +4,23 @@
  <!-- -Removed- -->
  <remove-project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
  <remove-project name="CyanogenMod/android_packages_apps_FMRadio" />
- <remove-project name="CyanogenMod/android_hardware_qcom_display" />
  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
  <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />
+ <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
  
  <!-- _________________________________________________________________________ -->
 
  <!-- Thanks to Sony-Kitakami -->
  <project name="heicrd/android_device_sony_loire"                         path="device/sony/loire"                    remote="github" revision="cm-13.0" />
 
- <project name="heicrd/android_device_sony_sepolicy"                      path="device/sony/sepolicy"                 remote="github" revision="cm-13.0" />
+ <project name="heicrd/android_device_sony_sepolicy"                      path="device/sony/sepolicy"                 remote="github" revision="cm-14.1-310" />
  <project name="heicrd/android_kernel_sony"                               path="kernel/sony"                          remote="github" revision="cm-13.0" />
  <project name="heicrd/android_hardware_sony_camera"                      path="hardware/sony/camera"                 remote="github" revision="cm-13.0" />
  <project name="heicrd/android_device_sony_common"                        path="device/sony/common"                   remote="github" revision="cm-13.0" />
  <project name="heicrd/android_device_sony_common-init"                   path="device/sony/common-init"              remote="github" revision="cm-13.0" />
 
  <!-- Qualcomm -->
- <project name="heicrd/android_hardware_qcom_display"                     path="hardware/qcom/display"                remote="github" revision="cm-13.0" />
- <project name="heicrd/android_hardware_qcom_audio"                       path="hardware/qcom/audio"                  remote="github" revision="android-6.0.1" />
- <project name="heicrd/android_hardware_qcom_media"                       path="hardware/qcom/media"                  remote="github" revision="cm-13.0" />
+ <project name="heicrd/android_hardware_qcom_audio"                       path="hardware/qcom/audio"                  remote="github" revision="cm-14.1" />
 
  <!-- Sony Xperia Dev -->
  <project name="sonyxperiadev/vendor-qcom-opensource-dataservices"        path="vendor/qcom/opensource/dataservices"  remote="github" revision="master" />
@@ -35,9 +33,9 @@
  <project name="infectedmushi/aosp-vendor-nxp"                            path="vendor/nxp"                           remote="github" revision="m-mr1" />
 
  <!-- Cyanogen Mod -->
- <project name="CyanogenMod/android_hardware_sony_thermanager"            path="hardware/sony/thermanager"            remote="github" revision="cm-13.0" />
- <project name="CyanogenMod/android_hardware_sony_timekeep"               path="hardware/sony/timekeep"               remote="github" revision="cm-13.0" />
- <project name="CyanogenMod/android_device_qcom_common"                   path="device/qcom/common"                   remote="github" revision="cm-13.0" />
+ <project name="CyanogenMod/android_hardware_sony_thermanager"            path="hardware/sony/thermanager"            remote="github" revision="cm-14.1" />
+ <project name="CyanogenMod/android_hardware_sony_timekeep"               path="hardware/sony/timekeep"               remote="github" revision="cm-14.1" />
+ <project name="CyanogenMod/android_device_qcom_common"                   path="device/qcom/common"                   remote="github" revision="cm-14.1" />
  <project name="CyanogenMod/android_hardware_sony_macaddrsetup"           path="hardware/sony/macaddrsetup"           remote="github" revision="cm-13.0" />
 
 </manifest>
