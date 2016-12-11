@@ -20,7 +20,7 @@
  <project name="heicrd/android_device_sony_common-init"                   path="device/sony/common-init"              remote="github" revision="cm-13.0" />
 
  <!-- Qualcomm -->
- <project name="heicrd/android_hardware_qcom_audio"                       path="hardware/qcom/audio"                  remote="github" revision="cm-14.1" />
+ <project name="heicrd/android_hardware_qcom_audio"                       path="hardware/qcom/audio"                  remote="github" revision="android-7.1.1" />
 
  <!-- Sony Xperia Dev -->
  <project name="sonyxperiadev/vendor-qcom-opensource-dataservices"        path="vendor/qcom/opensource/dataservices"  remote="github" revision="master" />
