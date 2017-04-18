@@ -26,10 +26,11 @@
  <project name="sonyxperiadev/vendor-qcom-opensource-dataservices"        path="vendor/qcom/opensource/dataservices"  remote="github" revision="master" />
  <project name="sonyxperiadev/device-sony-sepolicy"                       path="device/sony/sepolicy"                 remote="github" revision="master" />
 
- <!-- Infected Mushi -->
- <project name="infectedmushi/aosp-vendor-qcom-prebuilt"                  path="vendor/qcom/prebuilt"                 remote="github" revision="n-mr1" />
- <project name="infectedmushi/aosp-vendor-sony"                           path="vendor/sony"                          remote="github" revision="n-mr1" />
- <project name="infectedmushi/aosp-vendor-nxp"                            path="vendor/nxp"                           remote="github" revision="n-mr1" />
+ <!-- Prebuilts -->
+ <project name="heicrd/aosp-vendor-qcom-prebuilt"                         path="vendor/qcom/prebuilt"                 remote="github" revision="n-mr1" />
+ <project name="heicrd/aosp-vendor-sony"                                  path="vendor/sony"                          remote="github" revision="n-mr1" />
+ <project name="heicrd/aosp-vendor-nxp"                                   path="vendor/nxp"                           remote="github" revision="n-mr1" />
+ <project name="heicrd/aosp-vendor-broadcom"                              path="vendor/broadcom"                      remote="github" revision="n-mr1" />
 
  <!-- Cyanogen Mod -->
  <project name="LineageOS/android_hardware_sony_thermanager"              path="hardware/sony/thermanager"            remote="github" revision="cm-14.1" />
