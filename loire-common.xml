@@ -2,11 +2,11 @@
 <manifest>
 
  <!-- -Removed- -->
- <remove-project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
- <!--<remove-project name="CyanogenMod/android_packages_apps_FMRadio" />-->
- <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
- <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />
- <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
+ <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+ <!--<remove-project name="LineageOS/android_packages_apps_FMRadio" />-->
+ <remove-project name="LineageOS/android_hardware_qcom_audio" />
+ <remove-project name="LineageOS/android_hardware_qcom_keymaster" />
+ <remove-project name="LineageOS/android_hardware_qcom_camera" />
  
  <!-- _________________________________________________________________________ -->
 
