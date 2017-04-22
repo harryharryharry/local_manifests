@@ -5,32 +5,35 @@
  <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+ <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_keymaster" />
  <remove-project name="LineageOS/android_hardware_qcom_camera" />
+ <remove-project name="LineageOS/android_packages_apps_Camera2" />
  
  <!-- _________________________________________________________________________ -->
 
- <!-- Thanks to Sony-Kitakami -->
- <project name="heicrd/android_device_sony_loire"                         path="device/sony/loire"                    remote="github" revision="cm-14.1" />
-
+ <project name="heicrd/android_device_sony_loire-common"                  path="device/sony/loire-common"             remote="github" revision="cm-14.1" />
  <project name="heicrd/android_device_sony_common"                        path="device/sony/common"                   remote="github" revision="cm-14.1" />
+
  <project name="heicrd/android_device_sony_common-init"                   path="device/sony/common-init"              remote="github" revision="cm-14.1" />
  <project name="heicrd/android_device_sony_sepolicy"                      path="device/sony/sepolicy"                 remote="github" revision="cm-14.1-310" />
 
- <!-- Omnirom Kernel Stuff -->
  <project name="omnirom/android_kernel_sony_msm"                          path="kernel/sony"                          remote="github" revision="android-7.1" />
  <project name="omnirom/android_device_sony_common-headers"               path="device/sony/common-headers"           remote="github" revision="android-7.1" />
  <project name="omnirom/android_hardware_sony_camera"                     path="hardware/sony/camera"                 remote="github" revision="android-7.1" />
  <project name="omnirom/android_hardware_qcom_audio"                      path="hardware/qcom/audio"                  remote="github" revision="android-7.1" />
+ <project name="omnirom/android_hardware_qcom_display"                    path="hardware/qcom/display"                remote="github" revision="android-7.1" />
+ <project name="omnirom/android_packages_apps_SnapdragonCamera"           path="packages/apps/SnapdragonCamera"       remote="github" revision="android-7.1" />
+ <project name="omnirom/android_packages_apps_FMRadio"                    path="packages/apps/FMRadio"                remote="github" revision="android-7.1" />
 
  <!-- Sony Xperia Dev -->
  <project name="sonyxperiadev/vendor-qcom-opensource-dataservices"        path="vendor/qcom/opensource/dataservices"  remote="github" revision="master" />
 
  <!-- Prebuilts -->
- <project name="heicrd/aosp-vendor-qcom-prebuilt"                         path="vendor/qcom/prebuilt"                 remote="github" revision="n-mr1" />
- <project name="heicrd/aosp-vendor-sony"                                  path="vendor/sony"                          remote="github" revision="n-mr1" />
- <project name="heicrd/aosp-vendor-nxp"                                   path="vendor/nxp"                           remote="github" revision="n-mr1" />
- <project name="heicrd/aosp-vendor-broadcom"                              path="vendor/broadcom"                      remote="github" revision="n-mr1" />
+ <project name="heicrd/aosp-vendor-qcom-prebuilt"                         path="vendor/qcom/prebuilt"                 remote="github" revision="m-mr1" />
+ <project name="heicrd/aosp-vendor-sony"                                  path="vendor/sony"                          remote="github" revision="m-mr1" />
+ <project name="heicrd/aosp-vendor-nxp"                                   path="vendor/nxp"                           remote="github" revision="m-mr1" />
+ <project name="heicrd/aosp-vendor-broadcom"                              path="vendor/broadcom"                      remote="github" revision="m-mr1" />
 
  <!-- LineageOS -->
  <project name="LineageOS/android_hardware_sony_thermanager"              path="hardware/sony/thermanager"            remote="github" revision="cm-14.1" />
